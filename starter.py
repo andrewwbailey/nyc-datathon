@@ -1,18 +1,3 @@
-```
-The below script connects to a sample test dataset stored in Google BigQuery
-and runs a select query
-```
-
-```
-Package Requirements:
-
-pip install google-api-python-client
-pip install --upgrade pandas
-
-
-Tested on version python 2.7
-
-```
 
 #necessary libraries
 import pandas as pd
