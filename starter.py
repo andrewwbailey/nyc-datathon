@@ -3,7 +3,7 @@
 import pandas as pd
 from pandas.io import gbq
 
-jobs_query = """SELECT * from dataset.jobs limit 5"""
+jobs_query = """SELECT * from dataset.jobs limit 10"""
 #other tables available include 'dataset.categories','dataset.companies','dataset.companies_daily'
 
 project_id='datathonsample'
