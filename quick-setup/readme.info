@@ -1,0 +1,6 @@
+RUN IN SHELL IN ORDER
+
+1.) sudo python ez_setup.py
+2.) sudo easy_install google-api-python-client
+3.) sudo easy_install --upgrade pandas
+4.) get cup of coffee and relax
