@@ -1,0 +1,16 @@
+for (i in 1:length(files)){
+  assign(files[i], read.table(files[i]))
+  a<-order(get(files[i])[,2])
+  temp<-get(files[i])[a,]
+  
+  
+  x<- c(1:dim(temp)[1])
+  y<- temp[,2]
+  
+  sum<- summary(lm(x ~ y))
+  
+  p <- sum$coefficients[2,4] 
+  r <- sum$r.squared
+  slope <- sum$coefficients[2,1]
+  
+}
